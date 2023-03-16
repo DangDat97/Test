@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCC</title>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #868686;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+
+}
+.section{
+  float: left;
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 1000px;
+}
+.section .nav{
+    background-color: black;
+    color: white ;
+}
+.section .nav a{
+    color: white;
+    text-decoration: none;
+}
+.section .nav li{
+    padding: 10px;
+    width: 100%;
+}
+.section .nav li:hover{
+    background-color: #868686;
+}
+.bg-grey{
+    background-color: #86868652; 
+    padding: 10px 100px;
+    margin: 10px 0px;
+
+}
+.main > div:first-child{
+    padding: 0px 100px 100px 100px;
+    border-bottom: 1px solid ;
+}
+.main > div:last-child{
+    padding-left: 10%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 1280px) {
+    body {
+    font-size: 14px;
+  }
+  .col-2{
+    width: 15%;
+    }
+.col-8{
+    width: 85%;
+}
+.row{
+    display: flex;
+}
+.col-3{
+    width: 33.33%;
+}
+
+.main > div:first-child{
+    padding: 0px 50px 50px 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+    body {
+    font-size: 12px;
+  }
+  .col-2{
+    width: 20%;
+}
+.col-8{
+    width: 80%;
+}
+.col-3{
+    width: 100%;
+    padding: 10px;
+}
+.main > div:first-child{
+    padding: 10px ;
+}
+.bg-grey{
+    background-color: #86868652; 
+    padding: 0px;
+    margin: 0px;
+
+}
+}
+@media only screen and (min-width: 1280px) {
+    body {
+    font-size: 18px;
+  }
+  .col-2{
+    width: 20%;
+}
+.col-8{
+    width: 80%;
+}
+.row{
+    display: flex;
+}
+.col-3{
+    width: 33.33%;
+}
+.main > div{
+    padding: 10px ;
+}
+}
+</style>
+</head>
+<body>
+    <div class="section">
+        <div class="col-2 nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" class="Active">News</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-8 main">
+            <div>
+                <img src="Screenshot_35.png" alt="">
+                <div class="bg-grey">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. </strong>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae eius optio saepe minima natus nam, distinctio accusamus a qui dignissimos, exercitationem veritatis maxime voluptate omnis culpa fuga quo. Culpa, eius?</p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
+                        <img src="Screenshot_36.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto enim earum, ullam quis velit illo numquam ipsa consequuntur, non praesentium, quaerat cupiditate et corrupti repellendus quod dignissimos! Excepturi, odit.
+
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
+                        <img src="Screenshot_37.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto enim earum, ullam quis velit illo numquam ipsa consequuntur, non praesentium, quaerat cupiditate et corrupti repellendus quod dignissimos! Excepturi, odit.
+                            
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
+                        <img src="Screenshot_38.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto enim earum, ullam quis velit illo numquam ipsa consequuntur, non praesentium, quaerat cupiditate et corrupti repellendus quod dignissimos! Excepturi, odit.
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Copyright @2021</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
